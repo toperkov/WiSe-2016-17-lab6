@@ -20,16 +20,11 @@ void RADIO::nRF_init(){
 }
 
 bool RADIO::RF_send( struct SensorData sensorData){
-  return radio.write(&sensorData, sizeof(sensorData));
+  return false; //!!!your code goes here!!!
 }
 
 void RADIO::RF_receive(bool rslt) {
-  if (rslt) {
-      Serial.println(F("Acknowledge received"));
-  }
-  else {
-      Serial.println(F("Tx failed"));
-  }
+  //!!!your code goes here!!!
 }
 
 void RADIO::RF_powerUp() {
