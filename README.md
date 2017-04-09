@@ -1,4 +1,4 @@
-# Bežične senzorske mreže - Lab 5
+# Bežične senzorske mreže - Lab 6
 
 ### FESB, smjer 110/111/112/114/120, akademska godina 2016/2017
 
@@ -10,7 +10,7 @@ Mreža će se sastojati od jednog **centralnog uređaja**, te max. **pet krajnji
 
 Vaš zadatak je spojiti krajnje senzorske uređaje prema slici:
 
-<img src="https://cloud.githubusercontent.com/assets/8695815/24838259/eed6ec80-1d44-11e7-8137-7fabad4a0e53.png" width="400px" height="400px" />
+<img src="https://cloud.githubusercontent.com/assets/8695815/24838259/eed6ec80-1d44-11e7-8137-7fabad4a0e53.png" width="400px" />
 
 Kod za krajnji senzorski uređaj se nalazi u direktoriju ``vjezba/sender``. Kao što se može primjetiti, kod je organiziran pomoću *state mašin*e. Također, radi jednostavnosti razumijevanja rada, kod je razbijen u dvije biblioteke, jednu za čitanje senzora, te drugu za slanje/primanje poruka preko radio kanala.
 
