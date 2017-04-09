@@ -61,12 +61,7 @@ void getData() {
 
 void showData() {
     if (newData == true) {
-        Serial.print(F("Temp: "));
-        Serial.println(dataReceived.temp);
-        Serial.print(F("Hum: "));
-        Serial.println(dataReceived.hum);
-        Serial.print(F("Light: "));
-        Serial.println(dataReceived.lightLevel);
+        //!!!your code goes here!!!
         newData = false;
     }
 }
