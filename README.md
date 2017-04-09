@@ -39,5 +39,7 @@ Vaš zadatak je da integrirate kod slanje i primanje poruka preko radio kanala i
 
 Vaš zadatak je spojiti centralni senzorski uređaj prema slici:
 
+<img src="https://cloud.githubusercontent.com/assets/8695815/24586396/2791afe2-17a0-11e7-9d71-6c84ff14d9a4.png" width="400px" />
+
 Kod za krajnji senzorski uređaj se nalazi u direktoriju ``vjezba/receiver``. Primjetite u setup funkciji da centralni uređaj istovremeno otvara konekciju prema pet uređaja. Prilikom primanja podataka preko radio kanala, inforamcije se pohranjuju u strukturu ``SensorData``. Vaš zadatak je da ekstendirate postojeću funkciju ``showData`` na način da ispisujete na serijski port vrijednost temperature, vlage i osvjetljenja koje primite preko radio kanala i pokranite u strukturu ``SensorData``.
 
