@@ -2,7 +2,7 @@
 
 ### FESB, smjer 110/111/112/114/120, akademska godina 2016/2017
 
-U sklopu današnje vježbe student će realizirati jednostavnu bežičnu senzorsku mrežu *stablaste topologije*.
+U sklopu današnje vježbe student će realizirati jednostavnu bežičnu senzorsku mrežu *zvjezdaste topologije* (``star topology``).
 
 Mreža će se sastojati od jednog **centralnog uređaja**, te max. **pet krajnjih bežičnih senzorskih uređaja** sa svojom jedinstvenom adresom. Krajnji senzorski uređaji su opremljeni sa senzorima temperature/vlage **DHT11/22** i osvjetljenosti **BH1750** te radio primopredajnikom **nRF24L01**. Senzorski podaci se transmitiraju s periodom od 8-10 sekundi prema centralnom uređaju koji te podatke ispisuje na serijski port. Nakon transmisije senzorski uređaji iz aktivnog stanja (*active state*) ulaze u tzv. stanje spavanja (*sleep state*) u kojem ostaju 8 sekundi; max. vrijeme koje *watchdog timer* može držati mikrokontroler u *sleep* stanju.
 
